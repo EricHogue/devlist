@@ -1,0 +1,75 @@
+body{
+    background-color: #FFF;
+    font-family: "Times New Roman", "Times", serif;
+    font-size: 1em;
+    color: #252525;
+    margin: 0;
+    padding: 0;
+}
+/* custom elements */
+.clearfix{
+    clear: both;
+}
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
+/* html elements - heading */
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.17em;
+}
+h4{
+    font-size: 1.12em;
+}
+h5{
+    font-size: .83em;
+}
+h6{
+    font-size: .75em;
+}
+/* html elements - links */
+a:link,a:visited{
+    text-decoration: none;
+    color: #252525;
+}
+/* html elements - list */
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* html elements - forms */
+input, button, submit{
+    border: none;
+}
+/* header */
+#header{
+    background: #252525;
+    width: 100%;
+}
+#logo{
+    float: left;
+}
+/* header navigation */
+#primary{
+    float: right;
+}
+#primary ul li{
+    float: left;
+}
+#primary ul li a{
+    display: block;
+    font-size: 1.125em;
+    color: #FFF;
+    text-align: center;
+}
