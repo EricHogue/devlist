@@ -7,7 +7,7 @@
 		$pdo->exec('SET NAMES "utf8"');
 	// if connection fails
 	}catch(PDOException $e){
-		echo "There was a problem connecting ot your datase" . "<br />" . $e->getMessage();
+		echo "There was a problem connecting to your datase" . "<br />" . $e->getMessage();
 		exit();
 	}
 ?>

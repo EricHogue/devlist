@@ -12,7 +12,7 @@
         <!-- jquery -->
         <script src=""></script>
         <!-- site/page title -->
-        <title><?php echo $pageName; ?></title>
+        <title><?php echo $siteName . " | " . " " . $pageName; ?></title>
         <!-- stylesheets -->
         <link rel="stylesheet" href="" />
         <link rel="stylesheet" href="" />
