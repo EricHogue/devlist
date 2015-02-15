@@ -19,7 +19,7 @@
     </head>
     <body>
         <header>
-            <img src="" alt="" />
+            <img src="" alt="Devlist Logo" />
             <nav id="primary">
                 <ul>
                     <li><a href=""></a></li>
