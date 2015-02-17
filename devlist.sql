@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 15, 2015 at 07:17 AM
+-- Generation Time: Feb 17, 2015 at 01:08 AM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -29,11 +29,17 @@ SET time_zone = "+00:00";
 CREATE TABLE IF NOT EXISTS `settings` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `sitename` varchar(255) NOT NULL,
-  `slogan` varchar(255) NOT NULL,
   `base` varchar(255) NOT NULL,
   `static` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `settings`
+--
+
+INSERT INTO `settings` (`id`, `sitename`, `base`, `static`) VALUES
+(1, 'Devlist', 'http://localhost/GitHub/devlist/', 'http://localhost/GitHub/devlist/public/');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
