@@ -1,5 +1,5 @@
 <?php 
-    dbConnect();
+    $pdo = dbConnect();
     try{
         $sql = 'SELECT * FROM settings ORDER BY id';
         $statement = $pdo->prepare($sql);
