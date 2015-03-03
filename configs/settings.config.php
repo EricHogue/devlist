@@ -5,7 +5,7 @@
         $statement = $pdo->prepare($sql);
         $statement->execute();
         $result = $pdo->query($sql);
-    }catch(pdoException $e){
+    }catch(PDOException $e){
         echo "There was an error getting settings information from the database";
     }
     $result = $statement->fetchAll();

@@ -2,7 +2,7 @@
     function dbConnect(){
         // pdo database connection
         try{
-            // connects using mysql connection information
+            // connects using PDO connection information
             $pdo = new PDO('mysql:host=localhost;dbname=devlist;charset=utf8', 'root', '');
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         // if connection fails
